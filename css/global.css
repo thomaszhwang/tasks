@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#top_nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 60px;
+    width: 100%;
+    background-color: #0095ce;
+}
+
+#left_nav {
+    position: absolute;
+    top: 60px;
+    bottom: 0px;
+    left: 0px;
+    width: 200px;
+    background-color: #333333;
+}
+
+#tasks {
+    position: absolute;
+    top: 60px;
+    bottom: 0px;
+    left: 200px;
+    right: 0px;
+}
+
+#tasks > div:first-child {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    border-right: 1px solid gray;
+}
