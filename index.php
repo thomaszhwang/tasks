@@ -11,6 +11,8 @@ if(!$u->isLoggedIn()) {
     <head>
         <meta charset="utf-8">
         <title>Task GoBanana Today!</title>
+        <link href='http://fonts.googleapis.com/css?family=Mako'
+            rel='stylesheet' type='text/css'>
         <script src="http://code.jquery.com/jquery-1.11.0.min.js"
             charset="utf-8"></script>
         <script src="js/plugins/sprintf.js" charset="utf-8"></script>

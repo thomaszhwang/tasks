@@ -18,10 +18,10 @@ function load_tasks() {
                 }
 
                 var new_task = $(sprintf('\
-                    <div>\
-                        <p>%(task_title)s</p>\
-                        <p>%(task_impact)s</p>\
-                        <p>%(task_next_step)s</p>\
+                    <div class="task">\
+                        <p class="title">%(task_title)s</p>\
+                        <p class="next_step">NEXT STEP: %(task_next_step)s</p>\
+                        <p class="impact">IMPACT: %(task_impact)s</p>\
                     </div>\
                 ', the_task));
 
