@@ -26,6 +26,7 @@ body {
     height: 100%;
     width: 50%;
     border-right: 1px solid gray;
+    overflow: scroll;
 }
 
 #search_tasks {
@@ -52,10 +53,6 @@ body {
 #tasks div.task {
     position: relative;
     padding-left: 10px;
-}
-
-#tasks div.selected > div {
-    background-color: #ea755d
 }
 
 #tasks p.title {
