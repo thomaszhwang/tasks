@@ -20,10 +20,14 @@ if(!$u->isLoggedIn()) {
         <link type="text/css" rel="stylesheet" href="css/global.css"/>
     </head>
     <body>
-        <div id="top_nav"></div>
         <div id="left_nav"></div>
         <div id="tasks">
-            <div></div>
+            <div>
+                <div id="search_tasks">
+                    <input type="text" placeholder="Search" />
+                </div>
+                <div id="task_list"></div>
+            </div>
             <div></div>
         </div>
     </body>
