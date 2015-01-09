@@ -50,11 +50,17 @@ body {
 }
 
 #tasks div.task {
+    position: relative;
     padding-left: 10px;
 }
 
+#tasks div.selected > div {
+    background-color: #ea755d
+}
+
 #tasks p.title {
-    margin: 5px 0px 0px 0px;
+    margin: 0px;
+    padding-top: 5px;
     font-size: 20px;
 }
 
